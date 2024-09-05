@@ -28,7 +28,6 @@ export default function Home() {
         <Review key={review.id} {...review} />
       ))}
 
-      <Space h="xs" />
 
       <Group justify="center" mt="sm" >
             <Pagination total={20} color="orange"/>
