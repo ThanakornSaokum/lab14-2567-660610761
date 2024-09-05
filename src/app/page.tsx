@@ -9,7 +9,7 @@ export default function Home() {
     <Container size="600px">
       <Title order={2}>Food Review 🍕</Title>
 
-      <Space h="lg" />
+      <Space h="xs" />
 
       <Title order={4}>Your rating</Title>
       <Rating defaultValue={0} size="lg" />
