@@ -28,11 +28,12 @@ export default function Home() {
         <Review key={review.id} {...review} />
       ))}
 
-      <Space h="lg" />
+      <Space h="xs" />
 
       <Group justify="center" mt="sm" >
             <Pagination total={20} color="orange"/>
       </Group>
+      
 
       <Text ta="center" my="sm">
       <Footer year="2024" name="Thanakon Saokham" studentId="660610761" />
